@@ -38,7 +38,8 @@ export const PagesRoutes:RouterConfig = [
             icon: 'ion-android-home',
             selected: false,
             expanded: false,
-            order: 0
+            order: 0,
+            url: '#/pages/dashboard'
           }
         }
       },
@@ -99,7 +100,7 @@ export const PagesRoutes:RouterConfig = [
             icon: 'ion-stats-bars',
             selected: false,
             expanded: false,
-            order: 200,
+            order: 200
           }
         },
         children: [
@@ -109,6 +110,7 @@ export const PagesRoutes:RouterConfig = [
             data: {
               menu: {
                 title: 'Chartist.Js',
+                url: '#/pages/charts/chartist-js'
               }
             }
           }

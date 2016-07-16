@@ -115,7 +115,7 @@
     "pree2e": "npm run webdriver:update -- --standalone",
     "pretest": "npm run lint",
     "docs": "npm run typedoc -- --options typedoc.json --exclude '**/*.spec.ts' ./src/",
-    "gh-pages": "wintersmith build -C docs && gh-pages -d docs/build",
+    "gh-pages": "wintersmith build -C docs && gh-pages -d dist",
     "start": "npm run server:dev",
     "start:hmr": "npm run server:dev:hmr",
     "postinstall": "npm run typings -- install && bower install",
